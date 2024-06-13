@@ -25,5 +25,5 @@ This is a web-based application that allows users to summarize text from PDF and
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/text-summarizer-ai.git
+   git clone https://github.com/shreyy2005/text-summarizer-ai.git
    cd text-summarizer-ai
