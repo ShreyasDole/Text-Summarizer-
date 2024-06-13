@@ -35,7 +35,7 @@ This is a web-based application that allows users to summarize text from PDF and
 text-summarizer-ai/
 │
 ├── app.py
-├── requirements.txt
+├── static/
+│   └── style.css
 └── templates/
     └── index.html
-
