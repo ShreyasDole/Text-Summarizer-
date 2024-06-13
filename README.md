@@ -27,3 +27,14 @@ This is a web-based application that allows users to summarize text from PDF and
    ```bash
    git clone https://github.com/shreyy2005/text-summarizer-ai.git
    cd text-summarizer-ai
+
+
+
+### Structure 
+
+text-summarizer-ai/
+│
+├── app.py
+├── requirements.txt
+└── templates/
+    └── index.html
