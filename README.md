@@ -30,7 +30,7 @@ This is a web-based application that allows users to summarize text from PDF and
 
 
 
-### Structure 
+### Project Structure 
 
 text-summarizer-ai/
 │
@@ -38,3 +38,4 @@ text-summarizer-ai/
 ├── requirements.txt
 └── templates/
     └── index.html
+
