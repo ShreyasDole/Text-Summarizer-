@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SummarizeAI</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+  <div class="desktop-1">
+    <div class="summarize-ai">SummarizeAI</div>
+    {% if summary %}
+    <div class="summary-container">
+      <h2>Summary:</h2>
+      <p>{{ summary }}</p>
+    </div>
+    {% endif %}
+    {% if error %}
+    <div class="summary-container">
+      <p class="error">{{ error }}</p>
+    </div>
+    {% endif %}
+    <div class="form-container">
+      <form action="/upload" method="post" enctype="multipart/form-data">
+        <label class="upload-btn">
+          Upload File
+          <input type="file" name="file" style="display: none;">
+        </label>
+        <div>
+          <textarea name="prompt" placeholder="Enter your Prompt"></textarea>
+        </div>
+        <div>
+          <button type="submit" class="submit-btn">Summarize It</button>
+          <button type="button" class="reset-btn" onclick="clearSummary()">Clear</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    function clearSummary() {
+      var summaryContainer = document.querySelector('.summary-container');
+      if (summaryContainer) {
+        summaryContainer.remove();
+      }
+    }
+  </script>
+</body>
+
+</html>
