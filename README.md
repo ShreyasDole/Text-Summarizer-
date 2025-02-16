@@ -68,7 +68,6 @@ text-summarizer-ai/
     └── index.html  # HTML template for the web interface
 ```
 
----
 
 ---
 
@@ -76,10 +75,7 @@ text-summarizer-ai/
 
 💡 Want to contribute? Feel free to fork the repo, create a new branch, and submit a PR! 😊
 
----
 
-
----
 
 🌟 **If you like this project, don't forget to give it a ⭐ on GitHub!** 🙌
 
