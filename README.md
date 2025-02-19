@@ -36,7 +36,7 @@ Welcome to **SummarizeAI**! This is a web-based application that allows users to
 1️⃣ **Clone the Repository**
 
 ```bash
- git clone https://github.com/shreyy2005/text-summarizer-ai.git
+ git clone https://github.com/ShreyasDole/text-summarizer-ai.git
  cd text-summarizer-ai
 ```
 
